@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9B34829E-4A7F-4064-972F-6FACC70A7E77"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D8B49BC-A522-40A4-BF1F-D516E4C66C90"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TipTools/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "0D8B49BC-A522-40A4-BF1F-D516E4C66C90 - 562c241caf320a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TipTools.ContentView.body.getter : some"
+                  moduleName = "TipTools"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/duyhuynhnguyentuan/Desktop/SwiftPlayAround/TipTools/TipTools/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "0D8B49BC-A522-40A4-BF1F-D516E4C66C90 - b541ab2e476a2935"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in TipTools.ContentView.body.getter : some"
+                  moduleName = "TipTools"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/duyhuynhnguyentuan/Desktop/SwiftPlayAround/TipTools/TipTools/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "560">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
