@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66795A4C2B1CD99D000C1E32 /* VariableColorEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66795A4B2B1CD99D000C1E32 /* VariableColorEffect.swift */; };
+		66795A4E2B1CDB5F000C1E32 /* ScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66795A4D2B1CDB5F000C1E32 /* ScaleEffect.swift */; };
+		66795A502B1CDC85000C1E32 /* AppearEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66795A4F2B1CDC85000C1E32 /* AppearEffect.swift */; };
+		66795A522B1CDD2D000C1E32 /* ReplaceEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66795A512B1CDD2D000C1E32 /* ReplaceEffect.swift */; };
 		6688B5132B179F23006DAE7E /* SymbolEffectsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6688B5122B179F23006DAE7E /* SymbolEffectsApp.swift */; };
 		6688B5152B179F23006DAE7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6688B5142B179F23006DAE7E /* ContentView.swift */; };
 		6688B5172B179F24006DAE7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6688B5162B179F24006DAE7E /* Assets.xcassets */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66795A4B2B1CD99D000C1E32 /* VariableColorEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableColorEffect.swift; sourceTree = "<group>"; };
+		66795A4D2B1CDB5F000C1E32 /* ScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleEffect.swift; sourceTree = "<group>"; };
+		66795A4F2B1CDC85000C1E32 /* AppearEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearEffect.swift; sourceTree = "<group>"; };
+		66795A512B1CDD2D000C1E32 /* ReplaceEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceEffect.swift; sourceTree = "<group>"; };
 		6688B50F2B179F23006DAE7E /* SymbolEffects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymbolEffects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6688B5122B179F23006DAE7E /* SymbolEffectsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolEffectsApp.swift; sourceTree = "<group>"; };
 		6688B5142B179F23006DAE7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +69,10 @@
 				6688B5162B179F24006DAE7E /* Assets.xcassets */,
 				6688B5182B179F24006DAE7E /* Preview Content */,
 				668E8D5B2B18E32500F71F0E /* PulseEffectView.swift */,
+				66795A4B2B1CD99D000C1E32 /* VariableColorEffect.swift */,
+				66795A4D2B1CDB5F000C1E32 /* ScaleEffect.swift */,
+				66795A4F2B1CDC85000C1E32 /* AppearEffect.swift */,
+				66795A512B1CDD2D000C1E32 /* ReplaceEffect.swift */,
 			);
 			path = SymbolEffects;
 			sourceTree = "<group>";
@@ -143,10 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66795A502B1CDC85000C1E32 /* AppearEffect.swift in Sources */,
 				6688B5152B179F23006DAE7E /* ContentView.swift in Sources */,
+				66795A4E2B1CDB5F000C1E32 /* ScaleEffect.swift in Sources */,
 				668E8D5C2B18E32500F71F0E /* PulseEffectView.swift in Sources */,
+				66795A4C2B1CD99D000C1E32 /* VariableColorEffect.swift in Sources */,
 				668E8D5A2B18DCA200F71F0E /* BounceEffectView.swift in Sources */,
 				6688B5132B179F23006DAE7E /* SymbolEffectsApp.swift in Sources */,
+				66795A522B1CDD2D000C1E32 /* ReplaceEffect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

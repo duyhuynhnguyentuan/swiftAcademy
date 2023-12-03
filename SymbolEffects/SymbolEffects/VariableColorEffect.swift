@@ -1,13 +1,14 @@
 //
-//  PulseEffectView.swift
+//  VariableColorEffect.swift
 //  SymbolEffects
 //
-//  Created by Duy Huỳnh Nguyễn Tuấn on 30/11/2023.
+//  Created by Duy Huỳnh Nguyễn Tuấn on 03/12/2023.
 //
+
 
 import SwiftUI
 
-struct PulseEffectView: View {
+struct VariableColorEffect: View {
     @State var trigger = 0
     @State var isActive = false
     var body: some View {
@@ -20,18 +21,18 @@ struct PulseEffectView: View {
             HStack{
                 Spacer()
                 VStack(spacing: 50){
-                    Image(systemName: "wifi.exclamationmark")
+                    Image(systemName: "waveform.badge.minus")
                         .scaleEffect(4)
-                        .symbolEffect(.pulse, value: trigger)
+                        .symbolEffect(.variableColor.iterative.hideInactiveLayers.nonReversing, value: trigger)
                     Button("Trigger") {
                         trigger += 1
                     }
                 }
                 Spacer()
                 VStack(spacing: 50){
-                    Image(systemName: "wifi.exclamationmark")
+                    Image(systemName: "waveform.badge.minus")
                         .scaleEffect(4)
-                        .symbolEffect(.pulse, isActive: isActive)
+                        .symbolEffect(.variableColor.iterative.dimInactiveLayers.nonReversing, isActive: isActive)
                     Button(isActive ? "Active" : "Inactive") {
                         isActive.toggle()
                     }
@@ -44,5 +45,5 @@ struct PulseEffectView: View {
 }
 
 #Preview {
-    PulseEffectView()
+    VariableColorEffect()
 }
